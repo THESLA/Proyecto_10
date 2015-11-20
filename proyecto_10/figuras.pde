@@ -9,4 +9,6 @@ ellipse(40,30,50,50);
 
 fill(#FFD603);
 rect(650,5,130,50);
+
+image(imagen1,10,0,60,60);
 }
