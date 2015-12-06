@@ -1,18 +1,22 @@
 boton h1 = new boton(40,100,1,"Rectangulos");
-
-
+boton h2 = new boton(220,100,2,"Textos");
 PImage imagen1;
 boolean [] folio = new boolean[5];
+PFont font;
 void setup(){
 size(800,600);
 imagen1 = loadImage("perfil.png");
+font = loadFont("Ubuntu-48.vlw");
 }
 
 void draw(){
+textAlign(LEFT);
 background(#FF8103);
+rectangulos();
+texto();
 figuras();
 //intro();
 menu();
-rectangulos();
+
 
 }

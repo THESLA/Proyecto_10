@@ -1,5 +1,6 @@
 
 void figuras() {
+  textAlign(LEFT);
   fill(#FF4603);
   noStroke();
   rect(-1, -1, 802, 60);
