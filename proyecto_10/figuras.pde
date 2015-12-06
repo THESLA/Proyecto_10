@@ -18,4 +18,6 @@ void figuras() {
   fill(0);
   textSize(20);
   text(day()+"/"+month()+"/"+year(), 655, 40);
+  
+
 }
