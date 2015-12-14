@@ -17,7 +17,7 @@ class boton {
    text(t,xpos+15,ypos+25);
 
    if(mousePressed == true && (mouseX >xpos) && (mouseX<xpos+150) && (mouseY>ypos) && (mouseY<ypos+40)){
-   println("0"+folio[0]+" "+"1"+folio[1]);
+   println("0"+folio[0]+" "+"1"+folio[3]);
    folio [0]= false;
    folio [1]= false;
    folio [2]= false;

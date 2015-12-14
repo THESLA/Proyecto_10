@@ -29,5 +29,6 @@ rect(20,80,760,500);
 triangle(400,60,370,100,430,100);
 h1.update();
 h2.update();
+h3.update();
 }
 }
